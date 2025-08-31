@@ -1,0 +1,166 @@
+-!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+<nav class="navbar">
+    <div class="nav-container">
+        <h1 class="nav-logo">Portfólio</h1>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#inicio" class="nav-link" data-translate="nav.inicio">Início</a>
+            </li>
+            <li class="nav-item">
+                <a href="#sobre-mim" class="nav-link" data-translate="nav.sobre">Sobre Mim</a>
+            </li>
+            <li class="nav-item">
+                <a href="#projetos" class="nav-link" data-translate="nav.projetos">Projetos</a>
+            </li>
+            <li class="nav-item">
+                <a href="#cursos" class="nav-link" data-translate="nav.cursos">Cursos</a>
+            </li>
+            <li class="nav-item">
+                <a href="#habilidades" class="nav-link" data-translate="nav.habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item">
+                <a href="#links" class="nav-link" data-translate="nav.links">Meus Links</a>
+            </li>
+        </ul>
+        <div class="language-selector">
+            <button class="language-btn" id="language-btn">PT</button>
+            <div class="language-dropdown" id="language-dropdown" hidden>
+                <button class="language-option" data-lang="pt-BR">PT</button>
+                <button class="language-option" data-lang="en">EN</button>
+                <button class="language-option" data-lang="es">ES</button>
+                <button class="language-option" data-lang="fr">FR</button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <main>
+        <section id="inicio" class="section">
+            <div class="container about-me-container">
+                <div class="about-text">
+                    <h2 data-translate="sections.inicio">Início</h2>
+                    <p data-translate="greeting.hello">Olá! Meu nome é Caio Franco Mesquita, um desenvolvedor apaixonado por tecnologia e criação de soluções inovadoras.</p>
+                    <p data-translate="greeting.welcome">Bem-vindo ao meu portfólio! Aqui você encontrará informações sobre meus projetos, habilidades e experiências.</p>
+                </div>
+                <div class="about-photo">
+                    <img src="sobre_mim.jpg" alt="Foto de Caio Franco Mesquita" />
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mim" class="section">
+            <div class="container about-me-container">
+                <div class="about-text" id="sobre-mim-text">
+                    <h2 data-translate="sections.sobre">Sobre Mim</h2>
+<ul>
+    <li data-translate="about.age">Idade: 19 anos</li>
+    <li data-translate="about.experience">Estou a procura da primeira oportunidade de emprego</li>
+    <li data-translate="about.internship">Procuro estágios no horário das tarde e/ou da noite</li>
+    <li data-translate="about.residence">Residência: Mogi Guaçu, São Paulo</li>
+    <li><span data-translate="about.contact_label">Contato:</span> 19 99631-7702</li>
+    <li><span data-translate="about.email_label">e-mail:</span> caiofm06@gmail.com</li>
+</ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="section">
+            <div class="container">
+                <h2 data-translate="sections.projetos">Projetos</h2>
+                <div class="projects-grid">
+                    <a href="https://github.com/CaioFrancoMesquita/Projeto-Sanquim" target="_blank" rel="noopener noreferrer" class="project-card link-item">
+                        <h3 data-translate="projects.project1.title">Projeto Sanquim</h3>
+                        <p data-translate="projects.project1.desc">site escolar criado para a escola Sanquim, feito como parte do trabalho interdisciplinar na faculdade Fatec Arthur de Azevedo</p>
+                    </a>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="cursos" class="section">
+            <div class="container">
+                <h2 data-translate="sections.cursos">Cursos</h2>
+                <ul class="courses-list">
+                    <li class="course-item">
+                        <span data-translate="courses.course1">Fatec Arthur de Azevedo - Mogi Mirim</span>
+                        <div class="course-info">
+                            <p><span data-translate="courses.start_label">Início do curso:</span> <span data-translate="courses.course1.start">Fevereiro de 2025</span></p>
+                            <p><span data-translate="courses.end_label">Término do curso:</span> <span data-translate="courses.course1.end">Dezembro de 2027</span></p>
+                            <p data-translate="courses.course1.current">Atualmente no segundo semestre.</p>
+                        </div>
+                    </li>
+<li class="course-item">
+    <span data-translate="courses.course2">Curso de Programação pela InfoFix</span>
+    <div class="course-info">
+        <p><span data-translate="courses.start_label">Início:</span> 2022</p>
+        <p><span data-translate="courses.end_label">Término:</span> 2023</p>
+        <p><span data-translate="courses.skills_label">Habilidades:</span> <span data-translate="courses.course2.skills">Teoria da programação</span></p>
+    </div>
+</li>
+<li class="course-item">
+    <span data-translate="courses.course3">Curso de Tecnologia Fundamental pela InfoFix</span>
+    <div class="course-info">
+        <p><span data-translate="courses.start_label">Início:</span> 2022</p>
+        <p><span data-translate="courses.end_label">Término:</span> 2024</p>
+        <p><span data-translate="courses.skills_label">Habilidades:</span> <span data-translate="courses.course3.skills">Word, PowerPoint e Excel</span></p>
+    </div>
+</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="habilidades" class="section">
+            <div class="container">
+                <h2 data-translate="sections.habilidades">Habilidades</h2>
+<div class="skills-grid">
+<div class="skill-item" data-translate="skills.html">
+    HTML/CSS
+</div>
+<div class="skill-item" data-translate="skills.js">
+    JavaScript
+</div>
+<div class="skill-item" data-translate="skills.python">
+    Python
+</div>
+<div class="skill-item" data-translate="skills.github">
+    C11
+</div>
+</div>
+<div class="new-skills-container">
+<div class="skill-item" data-translate="skills.word">
+  Word
+</div>
+<div class="skill-item" data-translate="skills.powerpoint">
+  PowerPoint
+</div>
+<div class="skill-item" data-translate="skills.excel">
+  Excel
+</div>
+</div>
+            </div>
+        </section>
+
+<section id="links" class="section">
+    <div class="container">
+        <h2 data-translate="sections.links">Meus Links</h2>
+        <div class="links-grid">
+            <a href="https://github.com/CaioFrancoMesquita" class="link-item" data-translate="links.github" target="_blank" rel="noopener noreferrer">GitHub</a>
+<a href="https://www.linkedin.com/in/caio-franco-mesquita-8b7445363/" class="link-item" data-translate="links.linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<a href="https://mail.google.com/mail/u/0/?hl=pt-BR#inbox" class="link-item" data-translate="links.email" target="_blank" rel="noopener noreferrer">E-mail</a>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
